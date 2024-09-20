@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List - Web Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-clock">
+            <div class="clock">
+                <span id="hrs">00</span>
+                <span class="dot">:</span>
+                <span id="min">00</span>
+                <span class="dot">:</span>
+                <span id="sec">00</span>
+            </div>
+        </div>
+        <div class="list">
+            <h2>To-Do List <img src="Images/list.png" alt="check list icon">
+                <div class="stats-numbers">
+                <p id="numbers">0 / 0</p>
+                </div>
+            </h2>
+            <div class="search-row">
+                <input type="text" id="input-box" placeholder="Add your To-Do here!">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li> 
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+        </div>
+    </div>
+
+    
+<script src="script.js"></script>
+</body>
+</html>
